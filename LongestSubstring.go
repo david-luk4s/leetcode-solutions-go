@@ -34,7 +34,6 @@ func checkExistsStr(li []string, target string) bool {
 	return false
 }
 
-
 func maxLength(itens []int) int {
 	vol := itens[0]
 	for i := 0; i < len(itens); i++ {
@@ -44,6 +43,7 @@ func maxLength(itens []int) int {
 	}
 	return vol
 }
+
 func lengthOfLongestSubstring(s string) int {
     if s == ""{
         return 0
